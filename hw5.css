@@ -1,0 +1,100 @@
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    height: 150vh;
+    position: relative;
+
+}
+.sidebar {
+    background-color: rgba(196, 58, 8, 0.104);
+    width: 10%;
+    text-align: center;
+    font-size: 25px;
+    height: 50%;
+    top: 0;
+    position: sticky;
+    border: solid 4px orange;
+}
+.slidebar div {
+    position: sticky;
+    top:0;
+
+    
+    
+}
+.main {
+    background-color: rgba(149, 38, 224, 0.145);
+    width: 90%;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+}
+.bigimg {
+    width: 100%;
+    height: 100%;
+    background-image: url(./dota\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    /* border: 5px solid yellow; */
+
+}
+.title {
+     width: 100;
+    height: 30%; 
+}
+.flex {
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    width: 100%;
+    top:20px;
+    bottom: 5px;
+    height: 10%;
+    justify-content: space-between;
+}
+
+h5 {
+    font-size: 29px;
+    padding: 0;
+    margin: 0;
+}
+.smallsize {
+    height: 1000px;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+
+    
+}
+.anhnho {
+    border-width: 0 1px;
+    border-radius: 99px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    background-position: center;
+    background-image: url(./linahd.jpg);
+    top: 50%;
+    left: 150%;
+    /* transform: translate(-50%, -50%); */
+
+    /* top: 30%; */
+    /* left: 140%; */
+
+}
+.chinhgiua {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
