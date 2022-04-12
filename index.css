@@ -1,0 +1,12 @@
+body {
+    font-size: 50px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/123/495/617/digital-art-fantasy-art-fantasy-girl-redhead-butterflies-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 10%;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
