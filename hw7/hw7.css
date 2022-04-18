@@ -27,7 +27,7 @@ body {
     right: 20%;
     height: 100%;
     background-color: black;
-   border-radius: 99px 99px 0px 0px;
+   border-radius: 999px 999px 0px 0px;
 }
 .face {
     position: absolute;
