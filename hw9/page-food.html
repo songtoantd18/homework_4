@@ -1,0 +1,1010 @@
+<html>
+    <head>
+        <title>Olonjie Food</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div[target=mobile]{
+                display: none;
+            }
+            .container{
+                position: static;
+            }
+            .header{
+                height: 1546px;
+            }
+            .logo{
+                position: absolute;
+                left: 90px;
+                top: 26.12px;
+            }
+            .logo-information-tools{
+                width: 1440px;
+                height: 830px;
+                position: absolute;
+                text-align: center;
+            }
+            .home{
+                width: 51px;
+                height: 28px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 28px;
+                position: absolute;
+                left: 830px;
+                top: 63px;
+            }
+            .product{
+                width: 68px;
+                height: 28px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 28px;
+                position: absolute;
+                left: 995px;
+                top: 63px;
+            }
+            .faq{
+                width: 32px;
+                height: 28px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 28px;
+                position: absolute;
+                left: 1177px;
+                top: 63px;
+            }
+            .contact{
+                width: 67px;
+                height: 28px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 28px;
+                position: absolute;
+                left: 1323px;
+                top: 63px;
+            }
+            .logo-information-tools__head{
+                height: 150px;
+            }
+            .header__content{
+                height: 619px;
+                background-image: url(food.png) ;
+                background-attachment: local;
+            }
+            .header__content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .header__content-food-app{
+                width: 119px;
+                height: 36px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+                position: absolute;
+                top: 228px;
+                color: #FFFFFF;
+            }
+            .header__content-suggest{
+                width: 937px;
+                height: 160px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 58px;
+                line-height: 80px;
+                text-align: center;
+                position: absolute;
+                top: 281px;
+                color: #FFFFFF;
+                letter-spacing: 0.2px;
+                box-sizing: border-box;
+            }
+            .header__content-download{
+                width: 590px;
+                height: 38px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: 40px;
+                text-align: center;
+                position: absolute;
+                top: 468px;
+                color: #F7F7F7;
+            }
+            .header__content--bottom-playstore{
+                width: 236px;
+                height: 68px;
+                box-sizing: border-box;
+                background-color: rgba(250, 74, 12, 1);
+                border-radius: 30px;
+                position: absolute;
+                top: 560px;
+                left: 460px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 16px 0px;
+            }
+            .playstore--content{
+                height: 36px;
+                width: 119px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+                color: #F7F7F7;
+                margin: auto;
+            }
+            .header__content--bottom-appstore{
+                width: 236px;
+                height: 68px;
+                box-sizing: border-box;
+                border-radius: 30px;
+                position: absolute;
+                top: 560px;
+                right: 465px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 16px 0px;
+                border: 1px solid #F7F7F7;
+            }
+            .appstore--content{
+                height: 36px;
+                width: 119px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+                color: #F7F7F7;
+                margin: auto;
+            }
+            .header__image{
+                position: absolute;
+                top: 639px;
+                left: 459px;
+            }
+            .page-line{
+                width: 884px;
+                height: 0px;
+                border: 3px solid #E4E4E4;
+                position: absolute;
+                left: 287px;
+                top: 1378px
+            }
+            .app-work{
+                height: 36px;
+                width: 425px;
+                font-family: 'Poppins';
+                font-size: 44px;
+                font-weight: 600;
+                line-height: 36px;
+                letter-spacing: 0.10000000149011612px;
+                text-align: center;
+                position: absolute;
+                top: 1451px;
+                left: 500px;
+                opacity: 0.8;
+            }
+            .content-first{
+                height: 656px;
+            }
+            .content-first__img{
+                position: absolute;
+                top: 1624px;
+                left: 245px;
+                background: url(image-1.png);
+                filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+                width: 302px;
+                height: 525px;
+            }
+            .content-first__content--top{
+                height: 36px;
+                width: 232px;
+                left: 0px;
+                top: 0px;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0.10000000149011612px;
+                text-align: left;
+                color: rgba(250, 74, 12, 1);
+                position: absolute;
+                top: 1779px;
+                left: 718px;
+            }
+            .content-first__content--middle{
+                height: 114px;
+                width: 561px;
+                left: 0px;
+                top: 10px;
+                font-family: 'Montserrat';
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 57px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: rgba(37, 43, 66, 1);
+                position: absolute;
+                top: 1832px;
+                left: 718px;
+            }
+            .content-first__content--bottom{
+                height: 76px;
+                width: 467px;
+                left: 0px;
+                top: 10px;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 38px;
+                letter-spacing: 0.20000000298023224px;
+                color: rgba(115, 115, 115, 1);
+                text-align: left;
+                position: absolute;
+                top: 1973px; 
+                left: 718px;
+            }
+            .content-second{
+                height: 807px;
+            }
+            .content-second__content--top{
+                height: 36px;
+                width: 211px;
+                left: 0px;
+                top: 0px;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0.10000000149011612px;
+                text-align: left;
+                color: rgba(250, 74, 12, 1);
+                position: absolute;
+                top: 2440px;
+                left: 254px;
+            }
+            .content-second__content--middle{
+                height: 114px;
+                width: 480px;
+                left: 0px;
+                top: 10px;
+                font-family: 'Montserrat';
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 57px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: rgba(37, 43, 66, 1);
+                position: absolute;
+                top: 2493px;
+                left: 254px;
+            }
+            .content-second__content--bottom{
+                height: 76px;
+                width: 462px;
+                left: 0px;
+                top: 10px;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 38px;
+                letter-spacing: 0.20000000298023224px;
+                color: rgba(115, 115, 115, 1);
+                text-align: left;
+                position: absolute;
+                top: 2634px;
+                left: 254px;
+            }
+            .content-second__img{
+                position: absolute;
+                top: 2280px;
+                left: 939px;
+                background: url(image-2.png) no-repeat;
+                filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+                width: 302px;
+                height: 525px;
+            }
+            .content-third{
+                height: 749px;
+            }
+            .content-third__img{
+                position: absolute;
+                top: 3016px;
+                left: 245px;
+                background: url(image-3.png) no-repeat;
+                filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+                width: 302px;
+                height: 525px;
+            }
+            .content-third__content--top{
+                height: 36px;
+                width: 211px;
+                left: 0px;
+                top: 0px;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0.10000000149011612px;
+                text-align: left;
+                color: rgba(250, 74, 12, 1);
+                position: absolute;
+                top: 3168px;
+                left: 718px;
+            }
+            .content-third__content--middle{
+                height: 114px;
+                width: 480px;
+                left: 0px;
+                top: 10px;
+                font-family: 'Montserrat';
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 57px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: left;
+                color: rgba(37, 43, 66, 1);
+                position: absolute;
+                top: 3221px;
+                left: 718px;
+            }
+            .content-third__content--bottom{
+                height: 76px;
+                width: 462px;
+                left: 0px;
+                top: 10px;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 38px;
+                letter-spacing: 0.20000000298023224px;
+                color: rgba(115, 115, 115, 1);
+                text-align: left;
+                position: absolute;
+                top: 3362px;
+                left: 718px;
+            }
+            .app-download{
+                height: 516px;
+                width: 1440px;
+                background-image: url(sweet.png);
+                background-attachment: local;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 3684px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .app-download__content--top{
+                height: 57px;
+                width: 503px;
+                font-family: 'Montserrat';
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 57px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                position: absolute;
+                top: 145px;
+                color: rgba(255, 255, 255, 1);
+            }
+            .app-download__content--bottom{
+                height: 38px;
+                width: 840px;
+                font-family: 'Montserrat';
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 38px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                position: absolute;
+                top: 223px;
+                color: rgba(255, 255, 255, 1);
+            }
+            .app-download__button--left{
+                height: 64px;
+                width: 142px;
+                border-radius: 10px;
+                padding: 19px;
+                box-sizing: border-box;
+                background-color: rgba(250, 74, 12, 1);
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                color: rgba(255, 255, 255, 1);
+                margin-right: 10px;
+            }            
+            .app-download__button--right{
+                height: 64px;
+                width: 142px;
+                border-radius: 10px;
+                padding: 19px;
+                box-sizing: border-box;
+                font-family: 'Montserrat';
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                color: rgba(255, 255, 255, 1);
+                border: 1px solid #F7F7F7;
+                margin-left: 10px;
+            }
+            .app-download__button{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                position: absolute;
+                top: 338px;
+            }
+            .information{
+                display: flex;
+                height: 140px;
+                width: 1440px;
+                justify-content: space-around;
+                position: absolute;
+                top: 4195px;
+                padding-top: 90px;
+            }
+            .social-network{
+                display: flex;
+                width: 210px;
+                flex-direction: row;
+                justify-content: space-around;
+                position: absolute;
+                top: 87px;
+                left: 610px;
+            }
+            .imformation-words{
+                font-family: 'Roboto';
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 18px;
+                letter-spacing: 0.10000000149011612px;
+            }
+            .information-logo{
+                position: static;
+            }
+            .information-logo--content{
+                position: absolute;
+                top: 58px;
+                left: 186px;
+            }
+            .imformation-words{
+                position: absolute;
+                top: 95px;
+                right: 160px;
+            }
+            @media only screen and (max-width: 414px) {
+                .container{
+                    position: relative;
+                    width: 414px;
+                }
+                .logo-information-tools{
+                    height: 1352px;
+                    width: 414px;
+                }
+                .logo-information-tools__head{
+                    height: 112px;
+                }
+                .logo{
+                    position: absolute;
+                    top: 17px;
+                    left: 25px;
+                    width: 104px;
+                    height: 51px;
+                }
+                .tools-mobile{
+                    position: absolute;
+                    top: 48px;
+                    right: 23px;
+                }
+                .tools{
+                    display: none;
+                }
+                .tools-mobile{
+                    background-image: url(tools.png);
+                    background-attachment: fixed;
+                    height: 30px;
+                    width: 28px;
+                    box-sizing: border-box;
+                    position: absolute;
+                    top: 48px;
+                    right: 50px;
+                }
+                .header__content{
+                    height: 935px;
+                    background-image: none;
+                    width: 414px;
+                }
+                .header__content-food-app{
+                    position: absolute;
+                    top: 162px;
+                    left: 167px;
+                    height: 24px;
+                    width: 80px;
+                    left: 165.5px;
+                    font-family: 'Montserrat';
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: center;
+                    color: #737373;
+                }
+                .header__content-suggest{
+                    display: none;
+                }
+                .header__content-suggest-mobile{
+                    position: absolute;
+                    width: 391px;
+                    height: 128px;
+                    left: 11.5px;;
+                    top: 203px;
+                    bottom: 6.76%;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 42px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    color: #252B42;
+                }
+                .header__content-download{
+                    display: none;
+                }
+                .header__content-download-moblie{
+                    height: 76px;
+                    width: 342px;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 38px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    position: absolute;
+                    left: 36px;
+                    top: 358px;
+                    color:#737373;
+                }
+                .header__content--bottom-playstore{
+                    height: 68px;
+                    width: 236px;
+                    left: 0px;
+                    top: 0px;
+                    border-radius: 30px;
+                    padding: 16px, 0px, 16px, 0px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 36px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: left;
+                    position: absolute;
+                    left: 89px;
+                    top: 484px;
+                }
+                .header__content--bottom-appstore{
+                    height: 68px;
+                    width: 236px;
+                    border-radius: 30px;
+                    padding: 16px, 0px, 16px, 0px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 36px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: left;
+                    position: absolute;
+                    left: 89px;
+                    top: 570px;
+
+                }
+                .appstore--content{
+                    color: rgba(250, 74, 12, 1); 
+                }
+                .header__image{
+                    width: 422px;
+                    height: 492px;
+                }
+                .header__image-mobile{
+                    position: absolute;
+                    top: 659px;
+                }
+                .header__image{
+                    display: none;
+                }
+                .app-work{
+                    height: 36px;
+                    width: 242px;
+                    left: 86px;
+                    top: 1267px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: center;
+                    position: absolute;
+                    top: 1267px;
+                }
+                .page-line{
+                    width: 414px;
+                    position: absolute;
+                    top: 1352px;
+                    left: 0px;
+                }
+                .content{
+                    width: 414px;
+                }
+                .content-first__content--top{
+                    position: absolute;
+                    top: 1417px;
+                    left: 91px;
+                    height: 36px;
+                    width: 232px;
+                }
+                .content-first__content--middle{
+                    display: none;
+                }
+                .content-first__content--middle-mobile{
+                    height: 228px;
+                    width: 337px;
+                    left: 10px;
+                    top: 10px;
+                    font-family: 'Montserrat';
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 57px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    position: absolute;
+                    top: 1493px;
+                    left: 37.5px;
+                }
+                .content-first__content--bottom{
+                    display: none;
+                }
+                .content-first__content--bottom-mobile{
+                    height: 152px;
+                    width: 257px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 38px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    position: absolute;
+                    top: 1771px;
+                    left: 77.5px;
+                    color:#737373;
+                }
+                .content-first__img{
+                    height: 540px;
+                    width: 300px;
+                    position: absolute;
+                    top: 1940px;
+                    left: 60px;
+                }
+                .content-third{
+                    width: 414px;
+                    position: absolute;
+                }
+                .content-second__content--top{
+                    height: 36px;
+                    width: 299px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 36px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: center;
+                    position: absolute;
+                    top: 2565px;
+                    left: 56.5px;
+                }
+                .content-second__content--middle{
+                    display: none;
+                }
+                .content-second__content--middle-mobile{
+                    height: 171px;
+                    width: 327px;
+                    font-family: 'Montserrat';
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 57px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    position: absolute;
+                    top: 2641px;
+                    left: 43.5px;
+                }
+                .content-second__content--bottom-mobile{
+                    height: 152px;
+                    width: 257px;
+                    left: 10px;
+                    top: 10px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 38px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    position: absolute;
+                    top: 2862px;
+                    left: 78.5px;
+                    color:#737373;
+                }
+                .content-second__img{
+                    height: 540px;
+                    width: 300px;
+                    position: absolute;
+                    top: 3030px;
+                    left: 75px;
+                }
+                .content-second__content--bottom{
+                    display: none;
+                }
+                .content-third{
+                    width: 414px;
+                }
+                .content-third__content--top{
+                    height: 36px;
+                    width: 123px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 36px;
+                    letter-spacing: 0.10000000149011612px;
+                    text-align: center;
+                    position: absolute;
+                    top: 2160px;
+                    left: 145.5px;
+                }
+                div[target=mobile]{
+                    display: block;
+                }
+                .content-third__content--middle{
+                    display: none;
+                }
+                .content-third__content--middle-mobile{
+                    height: 223px;
+                    width: 316px;
+                    font-family: 'Montserrat';
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 57px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    position: absolute;
+                    top: 2245px;
+                    left: 49px;
+                }
+                .content-third__content--bottom{
+                    display: none;
+                }
+                .content-third__content--bottom-moblie{
+                    position: absolute;
+                    top: 2500px;
+                    left: 49px;
+                    height: 152px;
+                    width: 257px;
+                    left: 78px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 38px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                    color:#737373;
+                }
+                .bottom-content{
+                    width: 414px;
+                    position: absolute;
+                    top: 1050px;
+                    left: 60px;
+                }
+                .content-third__img{
+                    height: 540px;
+                    width: 300px;
+                    position: absolute;
+                    top: 2680px;
+                    left: 60px;
+                }
+                .app-download{
+                    background-image: none;
+                    height: 620px;
+                    width: 414px;
+                    background: #252B42;
+                    position: absolute;
+                    left: -70px;
+                }
+                .app-download__content--top-mobile{
+                height: 57px;
+                width: 503px;
+                font-family: 'Montserrat';
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 57px;
+                letter-spacing: 0.20000000298023224px;
+                text-align: center;
+                position: absolute;
+                top: 145px;
+                color: rgba(255, 255, 255, 1);
+                top: 70px;
+                }
+                .app-download__content--top{
+                    display: none;
+                }
+                .app-download__content--bottom{
+                    display: none;
+                }
+                .app-download__content--bottom-mobile{
+                    height: 76px;
+                    width: 245px;
+                    left: 10px;
+                    top: 10px;
+                    font-family: 'Montserrat';
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 38px;
+                    letter-spacing: 0.20000000298023224px;
+                    text-align: center;
+                }
+                .social-network{
+                    width: 414px;
+                }
+                .information{
+                    width: 414px;
+                }
+                .information-logo{
+                    display: none;
+                }
+                .imformation-words{
+                    top: 200px;
+                    left: 35px;
+                    width: 300px;
+                }
+                }
+                .social-network{
+                    left: 38px;
+                    width: 200px;
+                    top: 140px;
+                }
+                .imformation-words-mobile-deskop{
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo-information-tools">
+                    <div class="logo-information-tools__head">
+                        <div class="logo">
+                            <img src="./logo.png" width="206px" height="102px">
+                        </div>
+                        <div class="tools">
+                            <div class="home">Home</div>
+                            <div class="product">Product</div>
+                            <div class="faq">Faq</div>
+                            <div class="contact">Contact</div>
+                        </div>
+                        <div class="tools-mobile"></div>
+                    </div>
+                <div class="header__content">
+                    <div class="header__content-food-app">Food App</div>
+                    <div class="header__content-suggest">Why stay hungry when<br> you can order from Bella Onojie</div>
+                    <div class="header__content-suggest-mobile" target="mobile">Why stay hungry<br> when you can order<br> from Bella Onojie</div>
+                    <div class="header__content-download">Download the bella onoje’s food app now on</div>
+                    <div class="header__content-download-moblie" target="mobile">Download the bella onoje’s food<br> app now on</div>
+                    <div class="header__content--bottom-playstore">
+                        <div class="playstore--content">Playstore</div>
+                    </div>
+                    <div class="header__content--bottom-appstore">
+                        <div class="appstore--content">App Store</div>
+                    </div>
+                </div>
+                <div class="header__image">
+                    <img src="./headerimg.png" width="548" height="640px">
+                </div>
+                <div class="header__image-mobile" targer="mobile">
+                    <img src="./headerimg.png" width="414" height="492px">
+                </div>
+                <hr class="page-line">
+                <div class="app-work">How the app works</div>
+            </div>
+            <div class="content">
+                <div class="content-first">
+                    <div class="content-first__img"></div>
+                    <div class="content-first__content">
+                        <div class="content-first__content--top">Create an account</div>
+                        <div class="content-first__content--middle">Create/login to an existing account to get started</div>
+                        <div class="content-first__content--middle-mobile" target="mobile">Create/login to<br> an existing<br> account to get<br> started</div>
+                        <div class="content-first__content--bottom">An account is created with your email and a desired password</div>
+                        <div class="content-first__content--bottom-mobile" target="mobile">An account is<br> created with your<br> email and a desired<br> password</div>
+                    </div>
+                </div>
+                <div class="content-second">
+                    <div class="content-second__content">
+                        <div class="content-second__content--top">Explore varieties</div>
+                        <div class="content-second__content--middle">Shop for your favorites meal as e dey hot.</div>
+                        <div class="content-second__content--middle-mobile" target="mobile">Shop for your<br> favorites meal<br> as e dey hot.</div>
+                        <div class="content-second__content--bottom">Shop for your favorite meals or drinks and enjoy while doing it.</div>
+                        <div class="content-second__content--bottom-mobile" target="mobile">Shop for your<br> favorite meals or<br> drinks and enjoy<br> while doing it.</div>
+                    </div>
+                    <div class="content-second__img"></div>
+                </div>
+                <div class="content-third">
+                    <div class="content-third__content">
+                        <div class="content-third__content--top">Checkout</div>
+                        <div class="content-third__content--middle">When you done check out and get it delivered.</div>
+                        <div class="content-third__content--middle-mobile" target="mobile">When you<br> done check<br> out and get it<br> delivered.</div>
+                        <div class="content-third__content--bottom">When you done check out and get it delivered with ease.</div>
+                        <div class="content-third__content--bottom-moblie" target="mobile">When you done<br> check out and get it<br> delivered with ease.</div>
+                    </div>
+                    <div class="content-third__img"></div>
+                </div>
+                <div class="bottom-content">
+                    <div class="app-download">
+                        <div class="app-download__content--top">Download the app now</div>
+                        <div class="app-download__content--top-mobile" target="mobile">Download the<br> app now</div>
+                        <div class="app-download__content--bottom">Available on your favorite store. Start your premium experience now</div>
+                        <div class="app-download__content--bottom" target="mobile">Most calendars are<br> designed for teams.</div>
+                        <div class="app-download__button">
+                            <div class="app-download__button--left">Playstore</div>
+                            <div class="app-download__button--right">App store</div>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <div class="information-logo">
+                            <div class="information-logo--content">
+                                <img src="./logo.png" width="206px" height="102px">
+                            </div>
+                        </div>
+                        <div class="social-network">
+                            <div>
+                                <img src="./twit.png" height="32px" width="32px">
+                            </div>
+                            <div>
+                                <img src="./facebook.png" height="32px" width="32px">
+                            </div>
+                            <div>
+                                <img src="./instagram.png" height="32px" width="32px">
+                            </div>
+                        </div>
+                        <div class="imformation-words">
+                            <div class="imformation-words-mobile-deskop">© Copyright 2021 Bella Onojie.com</div>
+                            <div class="imformation-words-mobile" target="mobile">Just type what's on your mind and we'll</div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
