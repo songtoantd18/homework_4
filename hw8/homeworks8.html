@@ -5,205 +5,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="homeworks8.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>homeworks 8 nhất định phải làm được</title>
+    <link rel="stylesheet" href="./homeworks8.css">
 </head>
 
-<body>
-    <div class="student1">
-        <div class="desktop">
-            <fieldset>
-                <form action="abc">
-                    <p class="title__student">student information</p>
-                    <div class="contain">
-                        <div class="left__section">
-                            <div class="name">
-                                <div class="name_title"><label for="name">
-                                        <h5>name</h5>
-                                    </label></div>
-                                <div class="name-attribute"><input type="text" name="name" id="name" minlength="6"
-                                        required placeholder="type your name" class=input__attribute></div>
-                            </div>
-                            <br>
-                            <div class="name">
-                                <div class="name_title"><label for="password">
-                                        <h5>password</h5>
-                                    </label></div>
-                                <div class="name-attribute"><input type="password" name="password" id="password"
-                                        required placeholder="type your password" class=input__attribute></div>
-                            </div>
-                            <br>
-                            <div class="name">
-                                <div class="name_title"><label for="date">
-                                        <h5>d.o.b</h5>
-                                    </label></div>
-                                <div class="name-attribute"><input type="text" onfocus="(this.type='date')" name="date"
-                                        id="date" class=input__attribute placeholder="01/01/1996">
-                                </div>
-                            </div>
-                            <br>
-                            <div class="name">
-                                <div class="name_title">
-                                    <label for="vehicle">
-                                        <h5>vehicle</h5>
-                                    </label>
-                                </div>
-                                <div class="name-attribute"><select name="vehicle" id="vehicle" class=input__attribute>
-                                        <option value="car">car</option>
-                                        <option value="bike">bike</option>
-                                        <option value="bus">buss</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <br><br><br>
-                        </div>
-                        <div>
-                        <hr >
-                        <hr>
-                        </div>
-                        <div class="right__section">
-                            <div class="name">
+<body style="background-color: lightpink; width: 800px; height: 500px;">
+    <form style="margin: 100px;" action="try hard">
+        <div class="contain">
+            <div class="header">student information</div>
+            <div class="section">
+                <div class="left-section">
+                    <div class="left-section_name">
+                        <label class="label_name" for="name">name</label>
+                        <input class="input_attribute" type="text" name="name" id="name" required
+                            placeholder="type name">
+                    </div>
+                    <div class="left-section_name">
+                        <label class="label_name" for="name">password</label>
+                        <input class="input_attribute" type="password" name="password" required id="password">
+                    </div>
+                    <div class="left-section_name">
+                        <label class="label_name" for="name" style="">d.o.b</label>
+                        <input class="input_attribute" type="text" onfocus="(this.type='date')" name="date" id="date"
+                            style="">
+                    </div>
 
-                                <div class="name_title"><label for="email">
-                                        <h5>email</h5>
-                                    </label></div>
-                                <div class="name-attribute"><input class=input__attribute type="email" name="email"
-                                        id="email" required placeholder="abc@email.com"></div>
-                            </div>
-                            <br>
-                            <div class="name">
-                                <div class="name_title"><label for="address">
-                                        <h5>address</h5>
-                                    </label></div>
-                                <div class="name-attribute"><input class=input__attribute type="text" name="address"
-                                        id="address" minlength="10" required placeholder="type address"></div>
-                            </div>
-                            <br>
-                            <div class="name">
-                            <div class="name_title"><label for="phone"><h5>phone</h5></label></div>
-                            <div class="name-attribute"><input class=input__attribute type="number" name="phone" id="phone" required
-                                placeholder="type your phone" min="1000000000" max="99999999999"></div>
-                            </div>
-                            <br>
-                            <div class="right__gender-grid">
-                                <div class="name_title">
-                                    <h5>gender</h5>
+                    <div class="left-section_name">
+                        <label class="label_name" for="vehicle">vehicle</label>
+                        <div class="vehicle-attribute">
+                            <!-- <div class="checked">car</div>
+                            <ul class="dropdown">
+                                <li >bike</li>
+                                <li>bus</li>
+                                <li>walk</li>
+                            </ul> -->
+                            <select class="vehicle" name="vehicle" id="vehicle" style="  width: 100%;
+                                        outline: none;
+                                        height: 30%;
+                                        background: #FFFFFF;
+                                        box-shadow: 2px 1px 6px 2px rgb(0 0 0 / 25%);
+                                        border-radius: 0px 15px 15px 0px;
+                          }">
+                                <div style="background-color: red;" class="checked">
+                                    <option value="bus">bus</option>
+                                    <option value="bus">bar</option>
+                                    <option value="bus">walk</option>
                                 </div>
-                                <div class="right__section-gender">
-                                    <div class="gender-grid"> <input type="radio" name="gender" id="female">
-                                        <label for="gender">female</label>
-                                    </div>
-                                    <div class="gender-grid"><input type="radio" name="gender" id="male">
-                                        <label for="gender"> male</label>
-                                    </div>
-                                    <div class="gender-grid"><input type="radio" name="gender" id="other">
-                                        <label for="gender"> other</label>
-                                    </div>
-                                    <div class="gender-grid"><input type="radio" name="gender" id="notother">
-                                        <label for="gender"> not other</label>
-                                    </div>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="right-section">
+                    <div class="left-section_name">
+                        <label class="label_name" for="email">email</label>
+                        <input class="input_attribute" type="email" name="email" id="email" required
+                            placeholder="email@gmail.com">
+                    </div>
+                    <div class="left-section_name">
+                        <label class="label_name" for="address">address</label>
+                        <input class="input_attribute" type="text" name="address" id="address">
+                    </div>
+                    <div class="left-section_name">
+                        <label class="label_name" for="name" style="">phone</label>
+                        <input class="input_attribute" type="number" name="phone" id="phone" minlength="1000000000"
+                            maxlength="9999999999">
+                    </div>
+
+                    <div class="gender-contain">
+                        <div class="gender-name">gender</div>
+                        <div class="gender">
+                            <div class="gender-attribute">
+                                <div class="input-name"><input class="input_attribute-gender" type="radio" name="radio"
+                                        id="radio"></div>
+                                <div class="label-name"><label class="label_name-gender" for="email">female</label>
                                 </div>
                             </div>
+                            <div class="gender-attribute">
+                                <div class="input-name"><input class="input_attribute-gender" type="radio" name="radio"
+                                        id="radio"></div>
+                                <div class="label-name"><label class="label_name-gender" for="email">male</label>
+                                </div>
+                            </div>
+                            <div class="gender-attribute">
+                                <div class="input-name"><input class="input_attribute-gender" type="radio" name="radio"
+                                        id="radio"></div>
+                                <div class="label-name"><label class="label_name-gender" for="email"> other</label>
+                                </div>
+                            </div>
+                            <div class="gender-attribute">
+                                <div class="input-name"><input class="input_attribute-gender" type="radio" name="radio"
+                                        id="radio"></div>
+                                <label class="label_name-gender" for="email">not
+                                    other</label>
+                            </div>
                         </div>
                     </div>
-                    <div class="right__section-interesting">
-                        
-                        <div  class="name_title">
-                            <h5>interesting</h5>
-                        </div>
-                        <div class="interesting">
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="music" id="music" value="music">
-                                <label for="music">music</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="sport" id="sport" value="sport">
-                                <label for="sport">sport</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="movie" id="movie" value="movie">
-                                <label for="movie">movie</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="trecking" id="trecking" value="trecking">
-                                <label for="trecking">trecking</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="lying" id="lying" value="lying">
-                                <label for="lying">lying</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="girl" id="girl" value="girl">
-                                <label for="girl">girl</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="movie" id="movie" value="movie">
-                                <label for="movie">movie</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="boy" id="boy" value="boy">
-                                <label for="boy">boy</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="game" id="game" value="game">
-                                <label for="game">game</label>
-                            </div>
-                            <br><br>
-                            <div class="interesting-abtribute">
-                                <input type="checkbox" name="other" id="other" value="other">
-                                <label for="other">other</label>
-                            </div>
-                            <br><br>
-                        </div>
+                </div>
+
+            </div>
+            <div class="interesting">
+                <div class="intersting-label">interesting</div>
+                <div class="interesting-attribute">
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle1"
+                            name="vehicle1" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle1"> music</label>
                     </div>
-                    <br><br><br>
-                    <div class="textarea">
-                        <textarea name="review" id="review" cols="100%" rows="3%"
-                            placeholder="how do you fell when answer the question?" style=
-                            "height: 90px; box-sizing: border-box;
-                            width: 652px;
-                            height: 88px;
-                            left: 28px;
-                            border: 1px solid gray;
-                            border-radius: 0 0 15px 15px ;"></textarea>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle2"
+                            name="vehicle2" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle2"> sport</label>
                     </div>
-                    <br><br><br>
-                    <div class="button">
-                        <div class="reset">
-                            <input type="reset" value="Reset" style="width: 113px;
-                            height: 38px;
-                            background-color: black;
-                            color: white;
-                            font-size: 20px;
-                            border-radius: 15px;
-                            ">
-                        </div>
-                        <div class="submit">
-                            <input type="submit" value="Submit" style="width: 113px;
-                            height: 38px;
-                            background-color: white;
-                            color: black;
-                            font-size: 20px;
-                            border-radius: 15px;
-                            border:4px solid black
-                            ">
-                        </div>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle3"
+                            name="vehicle3" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle3"> movie</label>
                     </div>
-                </form>
-            </fieldset>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle4"
+                            name="vehicle4" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle4"> cycle</label>
+                    </div>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle5"
+                            name="vehicle5" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle5"> chess</label>
+                    </div>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle6"
+                            name="vehicle6" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle6"> dog</label>
+                    </div>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle7"
+                            name="vehicle7" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle7"> swimming</label>
+                    </div>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle18"
+                            name="vehicle18" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle18"> boxing</label>
+                    </div>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle19"
+                            name="vehicle19" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle19"> gym</label>
+                    </div>
+                    <div class="interesting-attribute-menu">
+                        <input class="checkbox-custom" type="checkbox" style="margin:0px;padding:0px;" id="vehicle11"
+                            name="vehicle11" value="Bike">
+                        <label class="checkbox-custom-label" for="vehicle11"> good boy</label>
+                    </div>
+                </div>
+            </div>
+            <div class="textarea-title">
+                    <textarea class="textarea" name="ex" id="ex" cols="30" rows="10" placeholder="type your comment" required style="resize: none;"></textarea>
+            </div>
+            <div class="button">
+                <div class="reset">
+                    <input class="input-button" type="reset" value="Reset">
+                </div>
+                <div class="submit">
+                    <input class="input-button" type="submit" value="Submit">
+                </div>
+
+            </div>
         </div>
 
-    </div>
+        </div>
 
+    </form>
 </body>
 
 </html>
