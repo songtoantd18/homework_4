@@ -1,12 +1,38 @@
-body {
-    font-size: 50px;
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/123/495/617/digital-art-fantasy-art-fantasy-girl-redhead-butterflies-hd-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    top: 10%;
-}
+
 a {
-    color: red;
+    color: #00ff00;
     text-decoration: none;
+
 }
+a:hover {
+    animation: color 10s infinite linear;
+
+    cursor: pointer;
+    color: white;
+    background-color:black;
+    transition: transform 0.5s;
+    border-radius: 5px;
+    transform: scale(1.2);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5);
+}
+@keyframes color {
+    0%   { background: blue; }
+    20%  { background: orange; }
+    40%  { background: yellow; }
+    60%  { background: lightblue; }
+    80%  { background: whitesmoke; }
+    100% { background: violet; }
+  }
+  
+  body {
+    display: flex;
+    font-size: 50px;
+    background: #1a1a1a; /* Fallback */
+    text-align: center;
+    padding: 2em;
+    align-items: center;
+    flex-wrap: no-wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+
+  }
